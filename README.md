@@ -109,7 +109,7 @@ flowchart TD
 
 ---
 
-## 📘 API Endpoints
+##  API Endpoints
 
 ### ** POST /graph/run**
 
@@ -200,6 +200,20 @@ Runs the workflow without blocking.
 All functions are **async** and pure state transformers.
 
 ---
+
+## What Can Be Improved With More Time
+
+    Add WebSocket log streaming
+
+    Add persistent DB (SQLite/Postgres) for runs
+
+    Add dynamic graph creation via /graph/create
+    Add parallel node execution (async gather)
+
+    Add tool registry API
+
+    Add authentication for enterprise use
+
 
 ##  Conclusion
 
